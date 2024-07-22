@@ -1,0 +1,8 @@
+{
+	"labels": ["Chauffage", "Eau chaude", "Eclairage"],
+	"datasets": [
+		{
+			"data": [60, 30, 10]
+		}
+	]
+}

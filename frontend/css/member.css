@@ -1,0 +1,114 @@
+
+.container {
+    
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-top:20px;
+    
+  }
+
+  .titleForm{
+    text-decoration: none;
+    color: #ffa101;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+    
+    
+  }
+  .col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+  }
+
+  .col-75 p {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  button[type=submit], .deconnexion {
+    background-color: #31525b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top:10px;
+  }
+
+  .connexion, .inscription{
+    background-color: #b3dee5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    margin-top:10px;
+    max-width: 120px;
+  }
+
+  .inputError {
+    border-radius: 5px;
+    background-color: #983b45;
+    color: white;
+    padding: 5px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #31525b;
+  }
+
+  input[type=text],textarea[type=text], input[type=password], input[type=email], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  @media screen and (max-width: 900px) {
+    .lastName, .firstName, .email, .password, .confirmPassword, .connexion, .inscription, .deconnexion, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      padding: 1rem;
+      
+    }
+
+  }
+
+  @media screen and (min-width: 900px) {
+    .layoutForm{
+        max-width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1rem;
+        min-width: 800px;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .layoutForm{
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 1rem;
+    }
+  }

@@ -1,0 +1,32 @@
+.lh {
+	border-radius: 5px;
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#textPresentation {
+	text-align: center;
+	margin-top: 50px;
+	color: #31525b;
+}
+
+@media screen and (min-width: 700px) {
+	.lh {
+		max-width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 1rem;
+	}
+}
+
+.titleHome {
+	text-align: center;
+	margin-top: 50px;
+	color: #31525b;
+}
+
+.active {
+	background-color: red;
+	color: white;
+}

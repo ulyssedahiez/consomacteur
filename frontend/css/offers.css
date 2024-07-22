@@ -1,0 +1,98 @@
+.layoutOffer {
+	max-width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+	.layoutOffer {
+		max-width: 90%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 1rem;
+	}
+}
+
+.offerContainer {
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+	border: 0.2rem solid;
+	border-color: #ffa101;
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	
+}
+
+@media screen and (max-width: 700px) {
+	.offerContainer {
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 5px;
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+		border: 0.2rem solid;
+		border-color: #ffa101;
+	}
+}
+
+.cardTitleOffer {
+	text-decoration: none;
+	color: #ffa101;
+	font-size: 1.3rem;
+	margin-left: 1rem;
+	margin-bottom: 20px;
+}
+
+.priceOffer {
+	margin-top: 30px;
+	font-weight: bolder;
+}
+
+.buyOffer {
+	background-color: #31525b;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+	margin-top: 10px;
+}
+
+.col-1 {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+}
+.col-2 {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.cardImgOffer {
+	width: 20%;
+	height: 20%;
+}
+@media screen and (max-width: 700px) {
+	.cardImgOffer {
+		width: 40%;
+		height: 40%;
+	}
+}
+
+.cardImgsOffer {
+	text-align: center;
+}

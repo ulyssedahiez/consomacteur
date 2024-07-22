@@ -1,0 +1,10 @@
+{
+	"labels": ["Vous"],
+	"datasets": [
+		{
+			"label": "Consommation",
+			"data": [17],
+			"backgroundColor": ["#f44336", "#ff9800", "#ffc107", "#4caf50", "#8bc34a"]
+		}
+	]
+}

@@ -1,0 +1,101 @@
+.cardLayout {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	gap: 5px;
+	min-width: 300px;
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: flex-start;
+}
+
+.card {
+	align-self: flex-start;
+	min-width: 310px;
+	max-width: 370px;
+	min-height: 370px;
+	max-height: 370px;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	margin-top: 5px;
+	align-items: flex-start;
+	flex-grow: 1;
+}
+
+.titleCard p {
+	color: #31525b;
+    font-size: 1.2em;
+}
+
+.cardLayout {
+	column-count: 3; /* Nombre de colonnes */
+	column-gap: 5px; /* Espacement horizontal entre les colonnes */
+	width: 100%; /* Largeur totale du conteneur */
+}
+
+.card {
+	width: 100%; /* Largeur de chaque carte */
+	margin-bottom: 5px; /* Espacement vertical entre les cartes */
+}
+
+.titleCard {
+	text-decoration: none;
+	color: #ffa101;
+	break-inside: auto;
+	font-size: 1.3rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+
+.sensorsContainer {
+	height: 190px;
+	overflow-y: auto;
+	scrollbar-width: none; /* masquer la barre de défilement par défaut */
+	border-radius: 5px;
+	border: 0.2rem solid;
+	border-color: grey;
+}
+
+.sensorsContainer {
+	height: 170px;
+	overflow-y: auto;
+	scrollbar-width: auto; /* afficher la barre de défilement /
+        scrollbar-color: #999 #f5f5f5; / couleur de la barre de défilement */
+}
+
+.sensorsContainer::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+.sensorsContainer::-webkit-scrollbar-track {
+	background-color: #f5f5f5;
+	border-radius: 10px;
+}
+
+.sensorsContainer::-webkit-scrollbar-thumb {
+	background-color: #999;
+	border-radius: 10px;
+}
+
+.col-1 {
+	float: left;
+	width: 60%;
+	margin-top: 6px;
+}
+
+.col-2 {
+	float: left;
+	width: 40%;
+	margin-top: 6px;
+}
+
+.col-1 p {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}

@@ -1,0 +1,55 @@
+.buttonList{
+    background-color: #31525b;
+    color: white;
+    padding: 12px 20px;
+    border: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top:10px;
+  }
+
+  .suppr{
+    background-color: #983b45;
+  }
+
+  .col-25 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+  }
+ 
+
+  .col-25 p {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+    input[type=text]{
+    float: right;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  .addHouse{
+    padding: 25px;
+  }
+  .layoutInputError {
+    padding: 10px;
+  }

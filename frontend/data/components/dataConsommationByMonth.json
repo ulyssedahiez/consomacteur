@@ -1,0 +1,14 @@
+{
+    "labels": ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+    "datasets": [
+      {
+        "label": "Consommation énergétique par mois",
+        "data": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 5, 2],
+        "backgroundColor": "#36A2EB",
+        "borderColor": "#36A2EB",
+        "borderWidth": 1
+      }
+    ]
+  }
+
+  

@@ -1,0 +1,19 @@
+.buttonsHouses {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+}
+
+.buttonList .house {
+	margin: 10px; /* ajout d'un espace de 10 pixels entre les boutons */
+}
+
+.barChart{
+	max-height: 300px;
+}
+
+.house.active {
+	background-color: #ffa101 !important;
+	color: white;
+}
